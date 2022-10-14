@@ -1,0 +1,143 @@
+main{
+    width: 1330px;
+    background-color:rgb(20, 82, 175);
+    height: 460px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    
+}
+header{
+    
+    width: 1330px;
+    height: 140px;
+    background-color: black;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    background-color: white;
+    width: 100%;
+    border: 2px solid rgb(15, 80, 153);
+    display:flex;
+    flex-direction:column;
+    align-items:center ;
+    
+}
+.inicio{
+    color: rgb(15, 80, 153);
+}    
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('Sem Título-1.jpg'); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.container{
+    background-image: url('/imagens/tempo.jpg');
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    color: white;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    
+    
+}
+h4{
+    color: white;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+h2{
+   
+    /* background-color: blue; */
+    color: white;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+p{
+    text-decoration: none;
+    color: white;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+   
+}
+.escolhaAlbert{
+    background-image: url('/imagens/maquinaTempo.jpg');
+    /* border: solid blue; */
+    background-color: white;
+    width: 410px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:flex-start;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 90px;
+    padding-top: 20px;
+}
+.escolhaPita{
+    background-image: url('/imagens/matematica.jpg');
+    background-color: white;
+    width: 410px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:flex-start;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 90px;
+    padding-top: 20px;
+}
+.escolhaNikolas{
+    background-image: url('/imagens/cineasta.jpg');
+    /* border: solid blue; */
+    background-color: white;
+    width: 410px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:flex-start;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 90px;
+    padding-top: 20px;
+}
+div{
+    display: flex;
+    flex-direction: row;   
+    justify-content: center;
+}
+nav{
+    display: flex;
+    flex-direction: column;     
+    justify-content: center;
+}
+.textoAlbert{
+    width: 260px;
+}
+.textoPita{
+    width: 260px;
+}
+.textoNikolas{
+    width: 260px;
+}
+a{
+    text-decoration: none;
+}

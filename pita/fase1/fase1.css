@@ -1,0 +1,42 @@
+header{
+    /* border: solid orange; */
+    /* border: solid white; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+main{
+    /* border: solid white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+footer{
+    /* border: solid white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+body{
+    width: 50%;
+    padding-top: 12%;
+    padding-bottom: 12%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border: solid orange;
+    background-image: url('/imagens/matematica2.jpg');
+}
+p{
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+h3{
+    color: white;
+}
