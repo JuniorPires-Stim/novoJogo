@@ -24,8 +24,8 @@ footer{
 }
 body{
     width: 50%;
-    padding-top: 11%;
-    padding-bottom: 11%;
+    padding-top: 12%;
+    padding-bottom: 13%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
