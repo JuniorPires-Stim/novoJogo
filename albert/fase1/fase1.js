@@ -19,7 +19,7 @@ function resultadoResposta (){
     }
     if( contador == 0){
       alert ('vc perdeu')
-      window.location.assign("/albert/fase1/perdeu.html")
+      window.location.assign("/novo jogo/index.html")
     }     
 }
 
